@@ -168,7 +168,7 @@ public class EventHandler implements RequestHandler<ScheduledEvent, String> {
         return AmazonS3ClientBuilder.standard().withRegion(Regions.DEFAULT_REGION).build();
     }
     
-    private class Hello {
+    private Hello() {
     int test() {
     String s = null;
     return s.length();
